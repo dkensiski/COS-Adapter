@@ -3500,7 +3500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal"
+		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal_BIG_FEET"
 			(at 64.77 114.3 0)
 			(effects
 				(font
@@ -4764,7 +4764,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal_BIG_FEET"
 			(at 69.85 126.492 90)
 			(effects
 				(font
@@ -5043,7 +5043,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal_BIG_FEET"
 			(at 55.88 110.998 90)
 			(effects
 				(font
