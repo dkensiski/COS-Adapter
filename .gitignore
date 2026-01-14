@@ -1,0 +1,40 @@
+# Exclude all backup files that get auto-generated within KiCAD projects.
+**/*-backups/**
+
+# Exclude all lock files for KiCAD projects that are currently open.
+**~**
+
+# Exclude auto-rebuilt footprint info cache.
+**fp-info-cache
+
+# Exclude generated output files.
+projects/*/outputs
+projects/*/exports
+projects/*/panelized
+
+proto/*/outputs
+proto/*/exports
+proto/*/panelized
+
+# Exclude autosave files
+**/#auto_saved_files#
+**_autosave**
+
+# Ignore generated files from LTSpice in `simulation` folders.
+**/simulation/*.log
+**/simulation/*.raw
+
+# Folder used for CI artifact generation.
+.ci
+
+# VSCode configruation.
+.vscode
+# Worktrees folder
+worktrees/
+
+# Mac filesystem files
+.DS_Store
+
+# Windows filesystem files
+**:Zone.Identifier
+
