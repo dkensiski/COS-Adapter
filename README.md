@@ -14,12 +14,12 @@ circuit to perform the trick.
 
 ## PCB 3-D rendering
 
-![PCB v1.0 3D rendering](Doc/COS_Adapter_PCB3D.jpg)
+![PCB v1.0 3D rendering](DOC/COS_Adapter_PCB3D.jpg)
 
 ## PCB Layout
 
-![PCB v1.0 layout](Doc/COS_Adapter_Layout.png)
+![PCB v1.0 layout](DOC/COS_Adapter_Layout.png)
 
 ## Schematic
 
-![Schematic v1.0](Doc/COS_Adapter_Schematic.jpg)
+![Schematic v1.0](DOC/COS_Adapter_Schematic.jpg)
