@@ -1,8 +1,10 @@
 # COS Adapter V2
 
-The Kenwood TK-980 radio's COS output does not go suffciently low to reliably
-trigger the Arcom RC210's COS input, so Jim (K6KCP) designed this comparator
-circuit to perform the trick.
+The [Kenwood TK-981](https://www.kw902.com/981generalinfo.html) radio's COS output
+does not go suffciently low to reliably trigger the
+[Arcom RC210](https://www.arcomcontrollers.com/index.php?Itemid=524&route=product/product&product_id=33)
+controller's COS input, so Jim (K6KCP) designed this comparator circuit to perform
+the trick.
 
 ## Features
 
@@ -10,9 +12,10 @@ circuit to perform the trick.
 * Relay to close COS outut (normally open)
 * Audio circuitry (thanks Steve W6KCS) to adjust and filter the audio between
   the devices.  Components can be added or jumpered to suit.
-* Mounting holes for project box xxx or inside the Arcom
+* Mounting holes for a small [project box](https://amazon.com/dp/B07D23C962/)
+  or inside the [RC210 enclosure](https://www.arcomcontrollers.com/index.php?Itemid=524&route=product/product&product_id=32)
 
-## PCB 3-D rendering
+## 3-D rendering
 
 ![PCB v1.0 3D rendering](DOC/COS_Adapter_PCB3D.jpg)
 
