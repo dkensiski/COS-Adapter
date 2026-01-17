@@ -1,0 +1,25 @@
+Warning: Width correction constrained.  The width correction value must be in the range of [0.000001 mm; 0.199999 mm] for the current design rules.
+Plotted to '/Users/dlk/Desktop/Kenwood Repeater/COS Adapter V2/COS Adapter V2-F_Cu.gbr'.
+Plotted to '/Users/dlk/Desktop/Kenwood Repeater/COS Adapter V2/COS Adapter V2-B_Cu.gbr'.
+Plotted to '/Users/dlk/Desktop/Kenwood Repeater/COS Adapter V2/COS Adapter V2-F_Paste.gbr'.
+Plotted to '/Users/dlk/Desktop/Kenwood Repeater/COS Adapter V2/COS Adapter V2-B_Paste.gbr'.
+Plotted to '/Users/dlk/Desktop/Kenwood Repeater/COS Adapter V2/COS Adapter V2-F_Silkscreen.gbr'.
+Plotted to '/Users/dlk/Desktop/Kenwood Repeater/COS Adapter V2/COS Adapter V2-B_Silkscreen.gbr'.
+Plotted to '/Users/dlk/Desktop/Kenwood Repeater/COS Adapter V2/COS Adapter V2-F_Mask.gbr'.
+Plotted to '/Users/dlk/Desktop/Kenwood Repeater/COS Adapter V2/COS Adapter V2-B_Mask.gbr'.
+Plotted to '/Users/dlk/Desktop/Kenwood Repeater/COS Adapter V2/COS Adapter V2-Edge_Cuts.gbr'.
+Created Gerber job file '/Users/dlk/Desktop/Kenwood Repeater/COS Adapter V2/COS Adapter V2-job.gbrjob'.
+Info: Done.
+Plotted to '/Users/dlk/Desktop/Kenwood Repeater/COS Adapter V2/Fabrication/COS Adapter V2-F_Cu.gbr'.
+Plotted to '/Users/dlk/Desktop/Kenwood Repeater/COS Adapter V2/Fabrication/COS Adapter V2-B_Cu.gbr'.
+Plotted to '/Users/dlk/Desktop/Kenwood Repeater/COS Adapter V2/Fabrication/COS Adapter V2-F_Paste.gbr'.
+Plotted to '/Users/dlk/Desktop/Kenwood Repeater/COS Adapter V2/Fabrication/COS Adapter V2-B_Paste.gbr'.
+Plotted to '/Users/dlk/Desktop/Kenwood Repeater/COS Adapter V2/Fabrication/COS Adapter V2-F_Silkscreen.gbr'.
+Plotted to '/Users/dlk/Desktop/Kenwood Repeater/COS Adapter V2/Fabrication/COS Adapter V2-B_Silkscreen.gbr'.
+Plotted to '/Users/dlk/Desktop/Kenwood Repeater/COS Adapter V2/Fabrication/COS Adapter V2-F_Mask.gbr'.
+Plotted to '/Users/dlk/Desktop/Kenwood Repeater/COS Adapter V2/Fabrication/COS Adapter V2-B_Mask.gbr'.
+Plotted to '/Users/dlk/Desktop/Kenwood Repeater/COS Adapter V2/Fabrication/COS Adapter V2-Edge_Cuts.gbr'.
+Created Gerber job file '/Users/dlk/Desktop/Kenwood Repeater/COS Adapter V2/Fabrication/COS Adapter V2-job.gbrjob'.
+Info: Done.
+Info: Done.
+Info: Done.

@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.2*%
+%TF.CreationDate,2026-01-15T06:12:19-08:00*%
+%TF.ProjectId,COS Adapter V2,434f5320-4164-4617-9074-65722056322e,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.2) date 2026-01-15 06:12:19*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.200000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X100000000Y-100000000D02*
+X194000000Y-100000000D01*
+X194000000Y-153000000D01*
+X100000000Y-153000000D01*
+X100000000Y-100000000D01*
+M02*
