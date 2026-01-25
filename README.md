@@ -17,6 +17,8 @@ the trick.
 
 ## Parts list
 
+| Part   | Value |
+| ------ | ---- |
 | **C1** |  .01 |
 | **D1** |  LED |
 | **D2** |  1N400X |
