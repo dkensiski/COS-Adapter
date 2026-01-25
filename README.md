@@ -31,8 +31,8 @@ the trick.
 | **Q1** | 2N3906 | |
 | **R1** | 4700 ohm | |
 | **R2** | 1000 ohm | |
-| **R3** | 50K | optional |
-| **R4** | 50K | optional |
+| **R3** | 50K | optional; replace with wire if not used |
+| **R4** | 50K | optional; replace with wire if not used |
 | **RV1** | 50K trim pot | Bourns style 3386P or 3386V |
 | **RV2** | 10K trim pot | |
 | **RV3** | 10K trim pot | |
