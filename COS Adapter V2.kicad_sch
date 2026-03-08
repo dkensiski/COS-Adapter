@@ -7,8 +7,9 @@
 	(title_block
 		(title "COS Adapter V2")
 		(date "2026-01-14")
-		(rev "v2")
+		(rev "v2.2")
 		(company "David Kensiski W6DLK")
+		(comment 1 "v2.2: fixed diode polarity")
 		(comment 2 "Alternate holes for mounting inside Arcom")
 		(comment 3 "Fits 3.9x2.4 project box amazon.com/dp/B07D23C962/")
 		(comment 4 "Original design by Jim Earl K6KCP for Kenwood TK-981 --> Arcom RC210")
@@ -3682,7 +3683,6 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 157.48 80.01 270)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3690,7 +3690,7 @@
 		(dnp no)
 		(uuid "56fd1ca4-238c-4fcf-973d-798bee35dba3")
 		(property "Reference" "D2"
-			(at 152.4 80.01 90)
+			(at 152.654 80.518 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3699,7 +3699,7 @@
 			)
 		)
 		(property "Value" "1N400X"
-			(at 149.606 76.962 90)
+			(at 149.098 82.804 90)
 			(effects
 				(font
 					(size 1.27 1.27)

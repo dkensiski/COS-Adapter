@@ -97,7 +97,7 @@
 	(net 8 "unconnected-(U1-NULL-Pad5)")
 	(net 9 "unconnected-(U1-NULL-Pad1)")
 	(net 10 "unconnected-(U1-NC-Pad8)")
-	(net 11 "Net-(D2-A)")
+	(net 11 "Net-(D2-K)")
 	(net 12 "Net-(J1-Pin_1)")
 	(net 13 "Net-(J2-Pin_2)")
 	(net 14 "Net-(J2-Pin_1)")
@@ -4018,7 +4018,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 11 "Net-(D2-A)")
+			(net 11 "Net-(D2-K)")
 			(pintype "passive")
 			(uuid "1b2ea061-77ae-4027-b460-9c3705d573f2")
 		)
@@ -4271,7 +4271,7 @@
 			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 11 "Net-(D2-A)")
+			(net 11 "Net-(D2-K)")
 			(pinfunction "E")
 			(pintype "passive")
 			(uuid "99fa3104-99aa-4b84-8c79-40baa0929c29")
@@ -4314,13 +4314,13 @@
 	(footprint "Diode_THT:D_A-405_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e66c9a2b-9223-4a98-b84b-2de56717eace")
-		(at 155.25 126.31 90)
+		(at 155.25 118.69 -90)
 		(descr "Diode, A-405 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=5.2*2.7mm^2, http://www.diodes.com/_files/packages/A-405.pdf")
 		(tags "Diode A-405 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D2"
 			(at 3.81 -2.47 90)
 			(layer "F.SilkS")
-			(uuid "b995a26a-4958-414d-b61b-ea8797ec163d")
+			(uuid "0392c995-59fa-412e-9b41-91f425fc486e")
 			(effects
 				(font
 					(size 1 1)
@@ -4331,7 +4331,7 @@
 		(property "Value" "1N400X"
 			(at 3.81 2.47 90)
 			(layer "F.Fab")
-			(uuid "3cc5414d-d91b-4d58-b5c0-5958f33746a2")
+			(uuid "77d46734-4cb7-46ad-860f-10fb25b86a91")
 			(effects
 				(font
 					(size 1 1)
@@ -4343,7 +4343,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f0a3c2c5-9f39-4e35-bb69-8305e06120ad")
+			(uuid "f6af86db-d1e2-4af1-be2e-dbd4434c73cb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,7 +4355,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eeaadd36-5937-4bd7-a897-6b8b918c88d1")
+			(uuid "69872055-cb3c-41e8-ae98-3f67ca164837")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4364,7 +4364,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4377,7 +4377,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4395,74 +4395,14 @@
 		(sheetfile "COS Adapter V2.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 6.53 -1.47)
-			(end 6.53 -1.14)
+			(start 1.09 1.47)
+			(end 6.53 1.47)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "37c71257-c51f-415f-a2d2-e4d7f0d60dd3")
-		)
-		(fp_line
-			(start 2.11 -1.47)
-			(end 2.11 1.47)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c9404384-0f4a-4d53-ae93-7b6116c52456")
-		)
-		(fp_line
-			(start 1.99 -1.47)
-			(end 1.99 1.47)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b9d9ccef-c6a6-4ded-a646-da83fe72bb63")
-		)
-		(fp_line
-			(start 1.87 -1.47)
-			(end 1.87 1.47)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0ed37b0b-4e2b-4d35-871f-8be629e96329")
-		)
-		(fp_line
-			(start 1.09 -1.47)
-			(end 6.53 -1.47)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c74067a4-ea79-4ec1-8950-2c479dd21a55")
-		)
-		(fp_line
-			(start 1.09 -1.14)
-			(end 1.09 -1.47)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a583595a-a758-47e8-86bd-7203801a0dfc")
-		)
-		(fp_line
-			(start 1.09 1.14)
-			(end 1.09 1.47)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "cb01f9aa-c731-4c4d-b935-f69b2149d4bf")
+			(uuid "7c26532b-ca14-49dc-88d2-2cfcdb3089a4")
 		)
 		(fp_line
 			(start 6.53 1.47)
@@ -4475,14 +4415,74 @@
 			(uuid "08570b70-81c2-4718-89c3-28ba512ba73c")
 		)
 		(fp_line
-			(start 1.09 1.47)
-			(end 6.53 1.47)
+			(start 1.09 1.14)
+			(end 1.09 1.47)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7c26532b-ca14-49dc-88d2-2cfcdb3089a4")
+			(uuid "cb01f9aa-c731-4c4d-b935-f69b2149d4bf")
+		)
+		(fp_line
+			(start 1.09 -1.14)
+			(end 1.09 -1.47)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a583595a-a758-47e8-86bd-7203801a0dfc")
+		)
+		(fp_line
+			(start 1.09 -1.47)
+			(end 6.53 -1.47)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c74067a4-ea79-4ec1-8950-2c479dd21a55")
+		)
+		(fp_line
+			(start 1.87 -1.47)
+			(end 1.87 1.47)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0ed37b0b-4e2b-4d35-871f-8be629e96329")
+		)
+		(fp_line
+			(start 1.99 -1.47)
+			(end 1.99 1.47)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b9d9ccef-c6a6-4ded-a646-da83fe72bb63")
+		)
+		(fp_line
+			(start 2.11 -1.47)
+			(end 2.11 1.47)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c9404384-0f4a-4d53-ae93-7b6116c52456")
+		)
+		(fp_line
+			(start 6.53 -1.47)
+			(end 6.53 -1.14)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "37c71257-c51f-415f-a2d2-e4d7f0d60dd3")
 		)
 		(fp_rect
 			(start -1.15 -1.6)
@@ -4496,34 +4496,14 @@
 			(uuid "bed6d156-83a1-4788-a67a-5450472653c8")
 		)
 		(fp_line
-			(start 2.09 -1.35)
-			(end 2.09 1.35)
+			(start 0 0)
+			(end 1.21 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c83b75f4-c044-4532-9e93-18767ed6ef9a")
-		)
-		(fp_line
-			(start 1.99 -1.35)
-			(end 1.99 1.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9453d4f4-909e-4396-a3e7-ec01bd99fcaf")
-		)
-		(fp_line
-			(start 1.89 -1.35)
-			(end 1.89 1.35)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5b2a2643-8061-4413-b71a-012d47ed90d2")
+			(uuid "d6fb9b23-da41-4dfc-b7db-77a73927dcad")
 		)
 		(fp_line
 			(start 7.62 0)
@@ -4536,14 +4516,34 @@
 			(uuid "01969d18-5100-4ebe-8972-05862f6f9f31")
 		)
 		(fp_line
-			(start 0 0)
-			(end 1.21 0)
+			(start 1.89 -1.35)
+			(end 1.89 1.35)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d6fb9b23-da41-4dfc-b7db-77a73927dcad")
+			(uuid "5b2a2643-8061-4413-b71a-012d47ed90d2")
+		)
+		(fp_line
+			(start 1.99 -1.35)
+			(end 1.99 1.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9453d4f4-909e-4396-a3e7-ec01bd99fcaf")
+		)
+		(fp_line
+			(start 2.09 -1.35)
+			(end 2.09 1.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c83b75f4-c044-4532-9e93-18767ed6ef9a")
 		)
 		(fp_rect
 			(start 1.21 -1.35)
@@ -4590,24 +4590,24 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0 90)
+			(at 0 0 270)
 			(size 1.8 1.8)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(roundrect_rratio 0.138889)
-			(net 1 "GND")
+			(net 11 "Net-(D2-K)")
 			(pinfunction "K")
 			(pintype "passive")
 			(uuid "70b751ec-b3d8-406d-aa67-af58a4b36c35")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0 90)
+			(at 7.62 0 270)
 			(size 1.8 1.8)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 11 "Net-(D2-A)")
+			(net 1 "GND")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "09318a92-28b8-4c7d-9153-d7143b08b23f")
@@ -5728,7 +5728,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 11 "Net-(D2-A)")
+			(net 11 "Net-(D2-K)")
 			(pintype "passive")
 			(uuid "5c3b46c9-e46a-4423-b65f-1410fd4cc520")
 		)
@@ -6218,7 +6218,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "Board rev 1.1"
+	(gr_text "Board rev 2.2"
 		(at 170.5 151 0)
 		(layer "F.SilkS")
 		(uuid "3ff7b0c3-2985-4303-8663-68ffde07edd2")
