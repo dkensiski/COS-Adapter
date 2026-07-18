@@ -24,7 +24,7 @@ the trick.
 | **D2** | 1N400X | |
 | **J1** | 2-pin JMT male | |
 | **J2** | 2-pin JMT male | |
-| **J3** | RCA phono | Can replace with harnass to Anderson PowerPole |
+| **J3** | RCA phono | Cliff FC68400, Same Sky RCJ-02x, or equiv |
 | **J8** | 3-pin JMT male | |
 | **J9** | 3-pin JMT male | |
 | **K1** | DIP Mini Relay | Littlefuse HE721C1200 |
